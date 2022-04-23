@@ -1,12 +1,15 @@
 
-- [Display Property](#display-property)
-- [Inline Block](#inline-block)
-- [Position Property](#position-property)
-- [Overflow Property](#overflow-property)
-- [Align](#align)
-- [Float and Clear](#float-and-clear)
+- [Layout](#layout)
+  - [Display Property](#display-property)
+  - [Inline Block](#inline-block)
+  - [Position Property](#position-property)
+  - [Overflow Property](#overflow-property)
+  - [Align](#align)
+  - [Float and Clear](#float-and-clear)
 
-# Display Property 
+# Layout
+
+## Display Property 
 
 The display property is the most important CSS property for controlling layout.
 
@@ -129,13 +132,13 @@ visibility :Specifies whether or not an element should be visible ( false olduğ
 
 ```
 
-# Inline Block
+## Inline Block
 
 Source : https://www.w3schools.com/css/css_inline-block.asp
 
 
 
-# Position Property
+## Position Property
 
 Source : https://www.w3schools.com/css/css_positioning.asp
 
@@ -304,7 +307,7 @@ top	Sets the top margin edge for a positioned box
 z-index	Sets the stack order of an element
 
 ```
-# Overflow Property
+## Overflow Property
 
 The CSS overflow property controls what happens to content that is too big to fit into an area.
 
@@ -379,20 +382,21 @@ div {
   overflow-y: scroll; /* Add vertical scrollbar */
 }
 
-```
-All CSS Overflow Properties
-Property	Description
-overflow	Specifies what happens if content overflows an element's box
-overflow-x	Specifies what to do with the left/right edges of the content if it overflows the element's content area
-overflow-y	Specifies what to do with the top/bottom edges of the content if it overflows the element's content area
+**All CSS Overflow Properties **
 
-```
+Property | Description
+--- | ---
+overflow | Specifies what happens if content overflows an element's box
+overflow-x | Specifies what to do with the left/right edges of the content if it overflows the element's content area
+overflow-y | Specifies what to do with the top/bottom edges of the content if it overflows the element's content area
 
-# Align
+---
+
+## Align
 
 **Center Align Elements**
 
-To horizontally center a block element (like `<div>`), use margin: auto;
+To horizontally center a block element (like `<div>`), use `margin: auto;`
 
 Setting the width of the element will prevent it from stretching out to the edges of its container.
 
@@ -400,12 +404,14 @@ The element will then take up the specified width, and the remaining space will 
 
 Example
 
+```css
 .center {
   margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
 }
+```
 
 Note: Center aligning has no effect if the width property is not set (or set to 100%).
 
@@ -415,11 +421,13 @@ To just center the text inside an element, use text-align: center;
 
 Example
 
+```css
 .center {
   text-align: center;
   border: 3px solid green;
 }
 
+```
 Tip: For more examples on how to align text, see the CSS Text chapter. https://www.w3schools.com/css_text.asp
 
 **Center an Image**
@@ -428,12 +436,14 @@ To center an image, set left and right margin to auto and make it into a block e
 
 Example
 
+```css
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
+```
 
 **Left and Right Align - Using position**
 
@@ -441,6 +451,7 @@ One method for aligning elements is to use position: absolute;:
 
 Example
 
+```css
 .right {
   position: absolute;
   right: 0px;
@@ -448,6 +459,7 @@ Example
   border: 3px solid #73AD21;
   padding: 10px;
 }
+```
 
 Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
 
@@ -457,12 +469,14 @@ Another method for aligning elements is to use the float property:
 
 Example
 
+```css
 .right {
   float: right;
   width: 300px;
   border: 3px solid #73AD21;
   padding: 10px;
 }
+```
 
 Note: If an element is taller than the element containing it, and it is floated, it will overflow outside of its container. You can use the "clearfix" hack to fix this (see example below).
 
@@ -472,9 +486,11 @@ Then we can add overflow: auto; to the containing element to fix this problem:
 
 Example
 
+```css
 .clearfix {
   overflow: auto;
 }
+```
 
 **Center Vertically - Using padding**
 
@@ -482,28 +498,32 @@ There are many ways to center an element vertically in CSS. A simple solution is
 
 Example
 
+```css
 .center {
   padding: 70px 0;
   border: 3px solid green;
 }
+```
 
 To center both vertically and horizontally, use padding and text-align: center:
 
 Example
 
+```css
 .center {
   padding: 70px 0;
   border: 3px solid green;
   text-align: center;
 }
+```
 
 **Center Vertically - Using line-height**
 
 Another trick is to use the line-height property with a value that is equal to the height property:
 
-
 Example
 
+```css
 .center {
   line-height: 200px;
   height: 200px;
@@ -517,6 +537,7 @@ Example
   display: inline-block;
   vertical-align: middle;
 }
+```
 
 **Center Vertically - Using position & transform**
 
@@ -524,6 +545,7 @@ If padding and line-height are not options, another solution is to use positioni
 
 Example
 
+```css
 .center {
   height: 200px;
   position: relative;
@@ -537,6 +559,7 @@ Example
   left: 50%;
   transform: translate(-50%, -50%);
 }
+```
 
 Tip: You will learn more about the transform property in our 2D Transforms Chapter.
 
@@ -546,6 +569,7 @@ You can also use flexbox to center things. Just note that flexbox is not support
 
 Example
 
+```css
 .center {
   display: flex;
   justify-content: center;
@@ -553,10 +577,11 @@ Example
   height: 200px;
   border: 3px solid green;
 }
+```
 
 Tip: You will learn more about Flexbox in our CSS Flexbox Chapter.
 
-# Float and Clear
+## Float and Clear
 
 The CSS float property specifies how an element should float.
 
@@ -581,9 +606,11 @@ The following example specifies that an image should float to the right in a tex
 
 Example
 
+```css
 img {
   float: right;
 }
+```
 
 Example - No float
 
@@ -591,9 +618,11 @@ In the following example the image will be displayed just where it occurs in the
 
 Example
 
+```css
 img {
   float: none;
 }
+```
 
 Example - Float Next To Each Other
 
@@ -601,6 +630,7 @@ Normally div elements will be displayed on top of each other. However, if we use
 
 Example
 
+```css
 div {
   float: left;
   padding: 15px;
@@ -617,5 +647,7 @@ div {
 .div3 {
   background: green;
 }
-end
+
+```
+
 
