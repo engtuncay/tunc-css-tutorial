@@ -20,6 +20,7 @@
       - [ALIGN-SELF](#align-self)
   - [Examples](#examples)
   - [Flexbox Tricks - Articles](#flexbox-tricks---articles)
+  - [More Information](#more-information)
  
 # FLEXBOX
 
@@ -420,43 +421,126 @@ Let’s try something even better by playing with flex items flexibility! What a
 
 ## Flexbox Tricks - Articles
 
-Article on Oct 3, 2019
-Adaptive Photo Layout with Flexbox
-Tim Van Damme
+- Adaptive Photo Layout with Flexbox, Tim Van Damme, Article on Oct 3, 201
 
+
+
+- Balancing on a Pivot with Flexbox, Julian Merkenich, 
 Article on Oct 9, 2020
-Balancing on a Pivot with Flexbox
-Julian Merkenich
-
-Article on Jul 21, 2020
-Using Flexbox and text ellipsis together
-Chris Coyier
-
-Article on Feb 19, 2016
-Useful Flexbox Technique: Alignment Shifting Wrapping
-Chris Coyier
-
-Article on Feb 23, 2017
-Designing A Product Page Layout with Flexbox
-Levin Mejia
 
 
-Article on Feb 8, 2017
-Flexbox and Truncated Text
-Chris Coyier
+
+- Using Flexbox and text ellipsis together
+Chris Coyier, Article on Jul 21, 2020
+
+https://css-tricks.com/using-flexbox-and-text-ellipsis-together/
+
+- Useful Flexbox Technique: Alignment Shifting Wrapping
+Chris Coyier, Article on Feb 19, 2016
+
+https://css-tricks.com/useful-flexbox-technique-alignment-shifting-wrapping/
+
+
+- Designing A Product Page Layout with Flexbox, Levin Mejia,  Article on Feb 23, 2017
+
+https://css-tricks.com/designing-a-product-page-layout-with-flexbox/
+
+- Flexbox and Truncated Text, Chris Coyier, Article on Feb 8, 2017
+
 https://css-tricks.com/flexbox-truncated-text/
 
-Article on Mar 18, 2020
-Flexbox and absolute positioning
+- Flexbox and absolute positioning, Chris Coyier, Article on Mar 18, 2020
+
+https://css-tricks.com/flexbox-and-absolute-positioning/
+
+- Filling the Space in the Last Row with Flexbox
+Chris Coyier, Article on Mar 10, 2014
+
+https://css-tricks.com/filling-space-last-row-flexbox/
+
+
+## More Information
+
+Article on Sep 26, 2013
+Solved by Flexbox
+FLEXBOX LAYOUT
 Chris Coyier
 
+- Flexbox Cheat Sheet, Chris Coyier, Article on Nov 25, 2013
 
-Article on Mar 10, 2014
-Filling the Space in the Last Row with Flexbox
+https://css-tricks.com/flexbox-cheat-sheet/
+
+
+Article on Dec 23, 2012
+Dive Into Flexbox
+FLEXBOX LAYOUT
+
 Chris Coyier
+Article on Oct 23, 2018
+Use Cases for Flexbox
+FLEXBOX LAYOUT
 
+Chris Coyier
+Article on Feb 14, 2019
+Quick! What’s the Difference Between Flexbox and Grid?
+FLEXBOX LAYOUT
 
+Chris Coyier
+Article on Feb 23, 2022
+Does CSS Grid Replace Flexbox?
+FLEXBOX LAYOUT
 
+Robin Rendle
+Article on Jun 25, 2020
+Grid for layout, flexbox for components
+FLEXBOX LAYOUT
+
+Robin Rendle
+Article on Apr 13, 2016
+Should I use Grid or Flexbox?
+FLEXBOX LAYOUT
+
+Robin Rendle
+Article on Aug 13, 2016
+Don’t Overthink It (Flexbox) Grids
+FLEXBOX LAYOUT
+
+Chris Coyier
+Article on Nov 24, 2021
+Building Multi-Directional Layouts
+FLEXBOX LAYOUT
+
+Ahmad El-Alfy
+Article on Jan 6, 2020
+How Auto Margins Work in Flexbox
+FLEXBOX LAYOUT
+
+Chris Coyier
+Article on Apr 10, 2017
+`flex-grow` is weird. Or is it?
+FLEXBOX LAYOUT
+
+Manuel Matuzovic
+Article on Nov 12, 2020
+Understanding flex-grow, flex-shrink, and flex-basis
+FLEXBOX LAYOUT
+
+Robin Rendle
+Article on Feb 18, 2019
+IE10-Compatible Grid Auto-Placement with Flexbox
+FLEXBOX LAYOUT
+
+Brian Holt
+Article on Aug 13, 2013
+“Old” Flexbox and “New” Flexbox
+FLEXBOX LAYOUT
+
+Chris Coyier
+Article on Jun 15, 2013
+Using Flexbox: Mixing Old and New for the Best Browser Support
+FLEXBOX LAYOUT
+
+Chris Coyier
 
 
 
